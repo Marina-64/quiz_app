@@ -1,0 +1,166 @@
+/* 全体を中央に配置するためのスタイル */
+.quiz-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Viewport Height */
+  margin: 0 auto;
+}
+
+.question-section {
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  width: 800px;
+}
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+}
+
+.final-score {
+  font-size: 3em;
+  color: #007bff;
+}
+
+h2 {
+  color: #666;
+  font-size: 1.5em;
+}
+
+button {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #e5243b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.answer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.answer-list li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.correct {
+  color: #56c02b;
+}
+
+.wrong {
+  color: #e5243b;
+}
+
+.large-feedback {
+  font-size: 2em;
+  color: #26bde2;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+}
+.option-0 {
+  background-color: #dda63a;
+}
+
+.option-1 {
+  background-color: #4c9f38;
+}
+
+.option-2 {
+  background-color: #c5192d;
+}
+
+.option-3 {
+  background-color: #ff3a21;
+}
+.option-4 {
+  background-color: tomato;
+}
+.option-5 {
+  background-color: #ffaa00;
+}
+
+/* ボタンの共通スタイル */
+.quiz-option-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 4px;
+
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+/* ホバーアクション */
+.quiz-option-button:hover {
+  /* opacity: 0.8; */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* スコア画面のスタイル */
+.score-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1400px;
+  width: 80%;
+}
+
+.answer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.answer-table thead {
+  background-color: #0a97d9;
+  color: white;
+}
+
+.answer-table th,
+.answer-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.question {
+  text-align: left;
+}
+
+.correct {
+  background-color: #d4edda;
+}
+
+.wrong {
+  background-color: #f8d7da;
+}
+
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.m-plus-rounded-1c-bold {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
